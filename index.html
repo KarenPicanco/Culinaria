@@ -2,26 +2,35 @@
 <html lang="pt-BR" dir="ltr">
     <head>
     <title>Culinaria Feliz</title>
-    
+    <link rel="stylesheet" href="css/fundos.css">
+    <meta charset="utf-8">
+    <script type="text/javascript"></script>
     </head>
-    
-    <h1>Culinaria Feliz</h1>
-    <body>
-       <meta charset="utf-8">
-        <h3>Categoria</h3>
-        <ul>
-            <li onclick="">Bolo</li>
-            <li onclick="">Torta</li>
-        </ul><br/>
+    	<div id=div01 style="margin-left: 8px"><h1>Culinaria Feliz</h1></div>
+    <body style="margin-left: 0px; margin-right: 0px;">
+    	<div id=div02 onmouseover="Mudarestado('imgTop')">
+    		<img id=imgTop src="img/fundobolo.jpg" height="1080" width="1920" alt="Fundo">
+    	</div>
+       <div id=div03>
+        	<h3>Categoria</h3>
+        	<ul>
+            	<li> <a href="#Bolo">Bolo</a></li>
+            	<li>Torta</li>
+        	</ul><br/>
           
-        <h3>Ultimas Receiras</h3>
-        <ul>
-            <li> <a href="tortademaca.html">Torta de Maçã</a></li>
-            <li> <a href="bolochocolate.html">Bolo de Chocolate</a></li>
-        </ul><br/>
-        <h4>Receba nossas receitas</h4>
-        <input type="email" name=""> <button onclick="">OK</button><br/>
-        <h3><a href="formulario.html">Contato</a></h3> <br/>
-        <button>Contato</button>
+        	<h3>Ultimas Receiras</h3>
+        	<ul>
+            	<li id=bolo> <a href="tortademaca.html">Torta de Maçã</a></li>
+            	<li> <a href="bolochocolate.html">Bolo de Chocolate</a></li>
+        	</ul><br/>
+        </div>
+        <div id=div04>
+        	<h4>Receba nossas receitas</h4>
+        		<input type="email" name=""> <button onclick="">OK</button><br/>
+        	<h3>
+        		<a href="formulario.html">Contato</a>
+        	</h3> <br/>
+        		<button>Contato</button>
+        </div>
     </body>
 </html>
